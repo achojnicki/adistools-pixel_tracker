@@ -82,7 +82,7 @@ def track(pixel_tracker_uuid):
 
         return Response(
         	pixel,
-            mimetype='image/gif',
+            mimetype='image/png',
         )
     else:
         return ""
