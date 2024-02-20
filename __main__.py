@@ -86,6 +86,7 @@ def track(pixel_tracker_uuid):
         )
     else:
         return ""
-application.route("/", methods=['GET'])
+
+@application.route("/", methods=['GET'])
 def index():
     return ""
